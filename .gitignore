@@ -1,0 +1,77 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Windows system directories (to avoid permission errors)
+**/Configuración local/
+**/Cookies/
+**/Datos de programa/
+**/Entorno de red/
+**/Impresoras/
+**/Menú Inicio/
+**/Mis documentos/
+**/Plantillas/
+**/Reciente/
+**/SendTo/
+**/AppData/
+**/Application Data/
+**/Local Settings/
+**/NetHood/
+**/PrintHood/
+**/Recent/
+**/Start Menu/
+**/Templates/
+
+# Common Windows user directories that should not be in a web project
+**/3D Objects/
+**/Contacts/
+**/Desktop/
+**/Documents/
+**/Downloads/
+**/Favorites/
+**/Links/
+**/Music/
+**/Pictures/
+**/Saved Games/
+**/Searches/
+**/Videos/
+**/OneDrive/
+
+# Temporary files
+**/*.tmp
+**/~$*
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# Development artifacts
+**/.cache/
+**/.config/
+**/.gradle/
+**/.m2/
+**/.vscode/
+**/.idea/
+**/node_modules/
+**/dist/
+**/build/
